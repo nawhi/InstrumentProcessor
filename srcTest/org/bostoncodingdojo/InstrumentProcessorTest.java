@@ -18,8 +18,8 @@ public class InstrumentProcessorTest {
 	 * <code>execute()</code> method is invoked with the correct task.
 	 */
 	@Test
-	public void invokingProcessTellsTheInstrumentToExecuteTheNextTask() throws Exception {
-		// TODO
+	public void invokingProcessTellsTheInstrumentToExecuteTheNextTask() {
+		throw new UnsupportedOperationException("TODO");
 	}
 	
 	/**
@@ -28,8 +28,8 @@ public class InstrumentProcessorTest {
 	 * <code>finished()</code> method with the correct task.
 	 */
 	@Test
-	public void taskFinishedEventsMarkTheTaskAsFinished() throws Exception {
-		// TODO
+	public void taskFinishedEventsMarkTheTaskAsFinished() {
+		throw new UnsupportedOperationException("TODO");
 	}
 	
 	/**
@@ -37,8 +37,8 @@ public class InstrumentProcessorTest {
 	 * exception is passed on to the caller of the <code>process()</code> method.
 	 */
 	@Test
-	public void instrumentExecutionExceptionsBubbleUpToProcessCaller() throws Exception {
-		// TODO
+	public void instrumentExecutionExceptionsBubbleUpToProcessCaller() {
+		throw new UnsupportedOperationException("TODO");
 	}
 	
 	/**
@@ -46,7 +46,7 @@ public class InstrumentProcessorTest {
 	 * the instrument processor prints an error message containing the task name.
 	 */
 	@Test
-	public void taskErrorEventsAreWrittenToErrorLogs() throws Exception {
-		// TODO
+	public void taskErrorEventsAreWrittenToErrorLogs() {
+		throw new UnsupportedOperationException("TODO");
 	}
 }
